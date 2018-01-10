@@ -9,6 +9,7 @@ import {
   TextInput,
   TouchableHighlight
 } from 'react-native';
+
 const bcrypt = require('bcryptjs');
 bcrypt.genSalt(10, function(err, salt) {
     bcrypt.hash("B4c0/\/", salt, function(err, hash) {
